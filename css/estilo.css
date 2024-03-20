@@ -1,0 +1,164 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.botonigresar {
+	padding: 5px;
+	border-radius: 20px;
+}
+
+.img1 {
+	background-size: 100% 100%;
+}
+
+
+.margen {
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+	border: 1px solid #ccc; border-radius: 10px;width: 1109px; max-width: 1500px;margin-left: 13.5%; margin:20px auto;  background: #fff;
+}
+
+
+
+
+.navegacion{
+	width: 100%;
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+	border-radius: 5px;
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+
+}
+
+.navegacion nav{
+	width:100% ;
+	max-width:1200px;
+	background:#c0392b; 
+	border-radius: 5px;
+	color: #DAA520;
+
+
+}
+
+.navegacion nav ul{
+	list-style: none;
+	position: relative;
+}
+
+.navegacion nav > ul > li{
+	display: inline-block;	
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+.navegacion nav > ul > li:hover{
+	background:#3b5998;
+	
+}
+
+.navegacion nav > ul > li > a, td{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 20px;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+.navegacion nav > ul > li > a span{
+	font-size: 20px;
+	position: absolute;
+	bottom: -8px;
+	display: none;
+}
+
+.navegacion nav > ul > li:hover span{
+	display: block;
+
+}
+
+.navegacion nav ul li .submenu{
+	background: #fff;
+	padding:20px;
+	position: absolute;
+	display: none;
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+	border-radius: 5px;
+
+}
+
+.navegacion nav ul li:hover .submenu {
+	display: flex;
+}
+
+.navegacion nav ul li:hover .submenu-items  {
+	margin: 0 20px;
+}
+
+.navegacion nav ul li .submenu .submenu-items p{
+	font-weight: 600;
+	width: 110px;
+	display: block;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #565656;
+	margin-bottom: 10px;
+}
+
+.navegacion nav ul li .submenu .submenu-items a{
+	color: #474747;
+	text-decoration: none;
+	margin: 6px 0;
+	display: block;
+}
+
+
+.color1 {
+	background:#34495e;
+    color:#fff;
+
+}
+.color2 { 
+	background:#DAA520;
+    color:#fff;
+}
+.color3 {
+	background:	#FFF5EE;
+    color:#000;
+}
+
+.color4 {
+	background:#c0392b;
+	color:#fff;
+}
+
+.color5 {
+	background:	#FFF5EE;
+    color:#000;
+}
+
+#informacion{
+ text-align: center;
+ min-width: 80%;
+ max-width: 80%;
+ margin-left: 10%;
+}
+#informacion iframe{
+	margin-left: 10%
+	text:left;	
+}
+
+header, footer {	
+	width:100%;
+	height:110px;
+	position: relative;
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}

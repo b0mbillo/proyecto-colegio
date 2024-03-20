@@ -1,0 +1,50 @@
+#slider {
+	margin-top:-5px;
+
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+}
+.container-fluid {
+	width:700px ;
+
+}
+
+ input [type="submit"]{
+ 	width: 60%
+ }
+
+input[type="submit"]{
+	border: none;
+  outline: none;
+  height: 40px;
+  background: #b80f22;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  margin-top:5px;
+  position: center;
+  
+  padding: 20px;
+
+}
+
+.box {
+	margin: 5px;
+	font-size: 12px;
+	margin-left: -15px;
+}
+
+#slider .item {
+	height: 400px;
+}
+
+/*#slide1 {
+	background: url('../img/prom.jpg') center no-repeat;	
+}*/
+
+
+
+.carousel-caption {
+	font-size: 18px;
+}
